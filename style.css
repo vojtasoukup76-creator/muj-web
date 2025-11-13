@@ -1,4 +1,4 @@
-body {background-color:rgb(223, 14, 14) ;
+body {background-color:gray  ;
    
 }
 
@@ -54,4 +54,9 @@ h2{
 
 .nav{
     display: flex;
+}
+.tlacitko3{
+    border: 10px;
+    cursor: pointer;
+    transition: 300ms;
 }

@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" type="image/png" href="https://www.pikawiz.com/assets/images/site/pikawiz-icon.png">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]},feature_flags:["soft_nav"]};(window.NREUM||(NREUM={})).loader_config={licenseKey:"d52dd270f3",applicationID:"295558491",browserID:"295626443"};;/*! For license information please see nr-loader-rum-1.302.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={122:(e,t,r)=>{"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let o in a)if(void 0!==e[o])try{if(null===e[o]){r[o]=null;continue}Array.isArray(e[o])&&Array.isArray(t[o])?r[o]=Array.from(new Set([...e[o],...t[o]])):"object"==typeof e[o]&&"object"==typeof t[o]?r[o]=i(e[o],t[o]):r[o]=e[o]}catch(e){r[o]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},154:(e,t,r)=>{"use strict";r.d(t,{OF:()=>c,RI:()=>i,WN:()=>u,bv:()=>a,gm:()=>o,mw:()=>s,sb:()=>d});var n=r(863);const i="undefined"!=typeof window&&!!window.document,a="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),s=Boolean("hidden"===o?.document?.visibilityState),c=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),d=c&&"undefined"==typeof SharedWorker,u=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)())},163:(e,t,r)=>{"use strict";r.d(t,{j:()=>T});var n=r(384),i=r(741);var a=r(555);r(860).K7.genericEvents;const o="experimental.resources",s="register",c=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(614),u=r(944),l=r(122);const f="[data-nr-mask]",g=e=>(0,l.a)(e,(()=>{const e={feature_flags:[],experimental:{allow_registered_children:!1,resources:!1},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0},api:{get allow_registered_children(){return e.feature_flags.includes(s)||e.experimental.allow_registered_children},set allow_registered_children(t){e.experimental.allow_registered_children=t},duplicate_registered_data:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(o)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:d.wk,inactiveMs:d.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){c(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,u.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){c(t)?e.block_selector+=",".concat(t):""!==t&&(0,u.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,u.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},spa:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]}}})());var p=r(154),m=r(324);let h=0;const v={buildEnv:m.F3,distMethod:m.Xs,version:m.xv,originTime:p.WN},b={appMetadata:{},customTransaction:void 0,denyList:void 0,disabled:!1,harvester:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++h}},y=e=>{const t=(0,l.a)(e,b),r=Object.keys(v).reduce((e,t)=>(e[t]={value:v[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)};var _=r(701);const w=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};var x=r(836),k=r(241);const S={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A=e=>(0,l.a)(e,S),R=new Set;function T(e,t={},r,o){let{init:s,info:c,loader_config:d,runtime:u={},exposed:l=!0}=t;if(!c){const e=(0,n.pV)();s=e.init,c=e.info,d=e.loader_config}e.init=g(s||{}),e.loader_config=A(d||{}),c.jsAttributes??={},p.bv&&(c.jsAttributes.isWorker=!0),e.info=(0,a.D)(c);const f=e.init,m=[c.beacon,c.errorBeacon];R.has(e.agentIdentifier)||(f.proxy.assets&&(w(f.proxy.assets),m.push(f.proxy.assets)),f.proxy.beacon&&m.push(f.proxy.beacon),e.beacons=[...m],function(e){const t=(0,n.pV)();Object.getOwnPropertyNames(i.W.prototype).forEach(r=>{const n=i.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let a=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return a?a(...t):n})})}(e),(0,n.US)("activatedFeatures",_.B),e.runSoftNavOverSpa&&=!0===f.soft_navigations.enabled&&f.feature_flags.includes("soft_nav")),u.denyList=[...f.ajax.deny_list||[],...f.ajax.block_internal?m:[]],u.ptid=e.agentIdentifier,u.loaderType=r,e.runtime=y(u),R.has(e.agentIdentifier)||(e.ee=x.ee.get(e.agentIdentifier),e.exposed=l,(0,k.W)({agentIdentifier:e.agentIdentifier,drained:!!_.B?.[e.agentIdentifier],type:"lifecycle",name:"initialize",feature:void 0,data:e.config})),R.add(e.agentIdentifier)}},234:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(836),i=r(687);class a{constructor(e,t){this.agentIdentifier=e,this.ee=n.ee.get(e),this.featureName=t,this.blocked=!1}deregisterDrain(){(0,i.x3)(this.agentIdentifier,this.featureName)}}},241:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(154);const i="newrelic";function a(e={}){try{n.gm.dispatchEvent(new CustomEvent(i,{detail:e}))}catch(e){}}},261:(e,t,r)=>{"use strict";r.d(t,{$9:()=>d,BL:()=>s,CH:()=>g,Dl:()=>_,Fw:()=>y,PA:()=>h,Pl:()=>n,Tb:()=>l,U2:()=>a,V1:()=>k,Wb:()=>x,bt:()=>b,cD:()=>v,d3:()=>w,dT:()=>c,eY:()=>p,fF:()=>f,hG:()=>i,k6:()=>o,nb:()=>m,o5:()=>u});const n="api-",i="addPageAction",a="addToTrace",o="addRelease",s="finished",c="interaction",d="log",u="noticeError",l="pauseReplay",f="recordCustomEvent",g="recordReplay",p="register",m="setApplicationVersion",h="setCurrentRouteName",v="setCustomAttribute",b="setErrorHandler",y="setPageViewName",_="setUserId",w="start",x="wrapLogger",k="measure"},289:(e,t,r)=>{"use strict";r.d(t,{GG:()=>a,Qr:()=>s,sB:()=>o});var n=r(878);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,n.sp)("load",e,t)}function o(e){if(i())return e();(0,n.DD)("DOMContentLoaded",e)}function s(e){if(i())return e();(0,n.sp)("popstate",e)}},324:(e,t,r)=>{"use strict";r.d(t,{F3:()=>i,Xs:()=>a,xv:()=>n});const n="1.302.0",i="PROD",a="CDN"},374:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},384:(e,t,r)=>{"use strict";r.d(t,{NT:()=>o,US:()=>u,Zm:()=>s,bQ:()=>d,dV:()=>c,pV:()=>l});var n=r(154),i=r(863),a=r(910);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function s(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function c(){let e=s();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,a.i)(...Object.values(e.o))),e}function d(e,t){let r=s();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t}function u(e,t){s()[e]=t}function l(){return function(){let e=s();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=s();const t=e.init||{};e.init={...t}}(),c(),function(){let e=s();const t=e.loader_config||{};e.loader_config={...t}}(),s()}},389:(e,t,r)=>{"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},555:(e,t,r)=>{"use strict";r.d(t,{D:()=>s,f:()=>o});var n=r(384),i=r(122);const a={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function o(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}const s=e=>(0,i.a)(e,a)},566:(e,t,r)=>{"use strict";r.d(t,{LA:()=>s,bz:()=>o});var n=r(154);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map(e=>"x"===e?a(t,r++).toString(16):"y"===e?(3&a()|8).toString(16):e).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const o=[];for(var s=0;s<e;s++)o.push(a(r,i++).toString(16));return o.join("")}},606:(e,t,r)=>{"use strict";r.d(t,{i:()=>a});var n=r(908);a.on=o;var i=a.handlers={};function a(e,t,r,a){o(a||n.d,i,e,t,r)}function o(e,t,r,i,a){a||(a="feature"),e||(e=n.d);var o=t[a]=t[a]||{};(o[r]=o[r]||[]).push([e,i])}},607:(e,t,r)=>{"use strict";r.d(t,{W:()=>n});const n=(0,r(566).bz)()},614:(e,t,r)=>{"use strict";r.d(t,{BB:()=>o,H3:()=>n,g:()=>d,iL:()=>c,tS:()=>s,uh:()=>i,wk:()=>a});const n="NRBA",i="SESSION",a=144e5,o=18e5,s={STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},d={OFF:0,FULL:1,ERROR:2}},630:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewEvent},646:(e,t,r)=>{"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},687:(e,t,r)=>{"use strict";r.d(t,{Ak:()=>d,Ze:()=>f,x3:()=>u});var n=r(241),i=r(836),a=r(606),o=r(860),s=r(646);const c={};function d(e,t){const r={staged:!1,priority:o.P3[t]||0};l(e),c[e].get(t)||c[e].set(t,r)}function u(e,t){e&&c[e]&&(c[e].get(t)&&c[e].delete(t),p(e,t,!1),c[e].size&&g(e))}function l(e){if(!e)throw new Error("agentIdentifier required");c[e]||(c[e]=new Map)}function f(e="",t="feature",r=!1){if(l(e),!e||!c[e].get(t)||r)return p(e,t);c[e].get(t).staged=!0,g(e)}function g(e){const t=Array.from(c[e]);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{c[e].delete(t),p(e,t)}))}function p(e,t,r=!0){const o=e?i.ee.get(e):i.ee,c=a.i.handlers;if(!o.aborted&&o.backlog&&c){if((0,n.W)({agentIdentifier:e,type:"lifecycle",name:"drain",feature:t}),r){const e=o.backlog[t],r=c[t];if(r){for(let t=0;e&&t<e.length;++t)m(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0]?.context()instanceof s.y&&t[0].on(e,t[1])})})}}o.isolatedBacklog||delete c[t],o.backlog[t]=null,o.emit("drain-"+t,[])}}function m(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],a=e[2];n.apply(i,a)}})}},699:(e,t,r)=>{"use strict";r.d(t,{It:()=>a,KC:()=>s,No:()=>i,qh:()=>o});var n=r(860);const i=16e3,a=1e6,o="SESSION_ERROR",s={[n.K7.logging]:!0,[n.K7.genericEvents]:!1,[n.K7.jserrors]:!1,[n.K7.ajax]:!1}},701:(e,t,r)=>{"use strict";r.d(t,{B:()=>a,t:()=>o});var n=r(241);const i=new Set,a={};function o(e,t){const r=t.agentIdentifier;a[r]??={},e&&"object"==typeof e&&(i.has(r)||(t.ee.emit("rumresp",[e]),a[r]=e,i.add(r),(0,n.W)({agentIdentifier:r,loaded:!0,drained:!0,type:"lifecycle",name:"load",feature:void 0,data:e})))}},741:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(944),i=r(261);class a{#e(e,...t){if(this[e]!==a.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e){return this.#e(i.Dl,e)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e(i.$9,e,t)}start(){return this.#e(i.d3)}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}}},773:(e,t,r)=>{"use strict";r.d(t,{z_:()=>a,XG:()=>s,TZ:()=>n,rs:()=>i,xV:()=>o});r(154),r(566),r(384);const n=r(860).K7.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},782:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewTiming},836:(e,t,r)=>{"use strict";r.d(t,{P:()=>s,ee:()=>c});var n=r(384),i=r(990),a=r(646),o=r(607);const s="nr@context:".concat(o.W),c=function e(t,r){var n={},o={},u={},l=!1;try{l=16===r.length&&d.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(c.aborted&&!i)return;t&&a&&t.emit(e,r,n);var s=g(n);m(e).forEach(e=>{e.apply(s,r)});var d=v()[o[e]];d&&d.push([f,e,r,s]);return s},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{o[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[o[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,s,()=>new a.y(s)):new a.y(s)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return u[t]=u[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),d=(0,n.Zm)();d.ee||(d.ee=c)},843:(e,t,r)=>{"use strict";r.d(t,{u:()=>i});var n=r(878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}},860:(e,t,r)=>{"use strict";r.d(t,{$J:()=>u,K7:()=>c,P3:()=>d,XX:()=>i,Yy:()=>s,df:()=>a,qY:()=>n,v4:()=>o});const n="events",i="jserrors",a="browser/blobs",o="rum",s="browser/logs",c={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},d={[c.pageViewEvent]:1,[c.pageViewTiming]:2,[c.metrics]:3,[c.jserrors]:4,[c.spa]:5,[c.ajax]:6,[c.sessionTrace]:7,[c.softNav]:8,[c.sessionReplay]:9,[c.logging]:10,[c.genericEvents]:11},u={[c.pageViewEvent]:o,[c.pageViewTiming]:n,[c.ajax]:n,[c.spa]:n,[c.softNav]:n,[c.metrics]:i,[c.jserrors]:i,[c.sessionTrace]:a,[c.sessionReplay]:a,[c.logging]:s,[c.genericEvents]:"ins"}},863:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},878:(e,t,r)=>{"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function a(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>a,jT:()=>n,sp:()=>i})},908:(e,t,r)=>{"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(836).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},910:(e,t,r)=>{"use strict";r.d(t,{i:()=>a});var n=r(944);const i=new Map;function a(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e&&e.toString().includes("[native code]");return t||(0,n.R)(64,e?.name||e?.toString()),i.set(e,t),t})}},944:(e,t,r)=>{"use strict";r.d(t,{R:()=>i});var n=r(241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({agentIdentifier:null,drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},990:(e,t,r)=>{"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var a=n[e]={exports:{}};return r[e](a,a.exports,i),a.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce((t,r)=>(i.f[r](e,t),t),[])),i.u=e=>"nr-rum-1.302.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.302.0.PROD:",i.l=(r,n,a,o)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==a)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+a){s=l;break}}if(!s){c=!0;var f={296:"sha512-wOb3n9Oo7XFlPj8/eeDjhAZxpAcaDdsBkC//L8axozi0po4wdPEJ2ECVlu9KEBVFgfQVL0TCY6kPzr0KcVfkBQ=="};(s=document.createElement("script")).charset="utf-8",i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[o]&&(s.integrity=f[o])}e[r]=[n];var g=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach(e=>e(n)),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={374:0,840:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var a=new Promise((r,i)=>n=e[t]=[r,i]);r.push(n[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var a=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,n[1](s)}},"chunk-"+t,t)}};var t=(t,r)=>{var n,a,[o,s,c]=r,d=0;if(o.some(t=>0!==e[t])){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);d<o.length;d++)a=o[d],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},r=self["webpackChunk:NRBA-1.302.0.PROD"]=self["webpackChunk:NRBA-1.302.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(374);var e=i(566),t=i(741);class r extends t.W{agentIdentifier=(0,e.LA)(16)}var n=i(860);const a=Object.values(n.K7);var o=i(163);var s=i(908),c=i(863),d=i(261),u=i(241),l=i(944),f=i(701),g=i(773);function p(e,t,i,a){const o=a||i;!o||o[e]&&o[e]!==r.prototype[e]||(o[e]=function(){(0,s.p)(g.xV,["API/"+e+"/called"],void 0,n.K7.metrics,i.ee),(0,u.W)({agentIdentifier:i.agentIdentifier,drained:!!f.B?.[i.agentIdentifier],type:"data",name:"api",feature:d.Pl+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,l.R)(23,e)}})}function m(e,t,r,n,i){const a=e.info;null===r?delete a.jsAttributes[t]:a.jsAttributes[t]=r,(i||null===r)&&(0,s.p)(d.Pl+n,[(0,c.t)(),t,r],void 0,"session",e.ee)}var h=i(687),v=i(234),b=i(289),y=i(154),_=i(384);const w=e=>y.RI&&!0===e?.privacy.cookies_enabled;function x(e){return!!(0,_.dV)().o.MO&&w(e)&&!0===e?.session_trace.enabled}var k=i(389),S=i(699);class A extends v.W{constructor(e,t){super(e.agentIdentifier,t),this.agentRef=e,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,k.J)(()=>{(0,h.Ak)(e.agentIdentifier,this.featureName),t()}))}):(0,h.Ak)(e.agentIdentifier,t)}importAggregator(e,t,r={}){if(this.featAggregate)return;let n;this.onAggregateImported=new Promise(e=>{n=e});const a=async()=>{let a;await this.deferred;try{if(w(e.init)){const{setupAgentSession:t}=await i.e(296).then(i.bind(i,305));a=t(e)}}catch(e){(0,l.R)(20,e),this.ee.emit("internal-error",[e]),(0,s.p)(S.qh,[e],void 0,this.featureName,this.ee)}try{if(!this.#t(this.featureName,a,e.init))return(0,h.Ze)(this.agentIdentifier,this.featureName),void n(!1);const{Aggregate:i}=await t();this.featAggregate=new i(e,r),e.runtime.harvester.initializedAggregates.push(this.featAggregate),n(!0)}catch(e){(0,l.R)(34,e),this.abortHandler?.(),(0,h.Ze)(this.agentIdentifier,this.featureName,!0),n(!1),this.ee&&this.ee.abort()}};y.RI?(0,b.GG)(()=>a(),!0):a()}#t(e,t,r){if(this.blocked)return!1;switch(e){case n.K7.sessionReplay:return x(r)&&!!t;case n.K7.sessionTrace:return!!t;default:return!0}}}var R=i(630),T=i(614);class E extends A{static featureName=R.T;constructor(e){var t;super(e,R.T),this.setupInspectionEvents(e.agentIdentifier),t=e,p(d.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,s.p)(d.Pl+d.Fw,[(0,c.t)()],void 0,void 0,t.ee))},t),this.ee.on("api-send-rum",(e,t)=>(0,s.p)("send-rum",[e,t],void 0,this.featureName,this.ee)),this.importAggregator(e,()=>i.e(296).then(i.bind(i,108)))}setupInspectionEvents(e){const t=(t,r)=>{t&&(0,u.W)({agentIdentifier:e,timeStamp:t.timeStamp,loaded:"complete"===t.target.readyState,type:"window",name:r,data:t.target.location+""})};(0,b.sB)(e=>{t(e,"DOMContentLoaded")}),(0,b.GG)(e=>{t(e,"load")}),(0,b.Qr)(e=>{t(e,"navigate")}),this.ee.on(T.tS.UPDATE,(t,r)=>{(0,u.W)({agentIdentifier:e,type:"lifecycle",name:"session",data:r})})}}var N=i(843),j=i(878),I=i(782);class O extends A{static featureName=I.T;constructor(e){super(e,I.T),y.RI&&((0,N.u)(()=>(0,s.p)("docHidden",[(0,c.t)()],void 0,I.T,this.ee),!0),(0,j.sp)("pagehide",()=>(0,s.p)("winPagehide",[(0,c.t)()],void 0,I.T,this.ee)),this.importAggregator(e,()=>i.e(296).then(i.bind(i,350))))}}class P extends A{static featureName=g.TZ;constructor(e){super(e,g.TZ),y.RI&&document.addEventListener("securitypolicyviolation",e=>{(0,s.p)(g.xV,["Generic/CSPViolation/Detected"],void 0,this.featureName,this.ee)}),this.importAggregator(e,()=>i.e(296).then(i.bind(i,623)))}}new class extends r{constructor(e){var t;(super(),y.gm)?(this.features={},(0,_.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(E),this.runSoftNavOverSpa=[...this.desiredFeatures].some(e=>e.featureName===n.K7.softNav),(0,o.j)(this,e,e.loaderType||"agent"),t=this,p(d.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return m(t,e,r,d.cD,n);(0,l.R)(40,typeof r)}else(0,l.R)(39,typeof e)},t),function(e){p(d.Dl,function(t){if("string"==typeof t||null===t)return m(e,"enduser.id",t,d.Dl,!0);(0,l.R)(41,typeof t)},e)}(this),function(e){p(d.nb,function(t){if("string"==typeof t||null===t)return m(e,"application.version",t,d.nb,!1);(0,l.R)(42,typeof t)},e)}(this),function(e){p(d.d3,function(){e.ee.emit("manual-start-all")},e)}(this),this.run()):(0,l.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return a.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),t=[...this.desiredFeatures];t.sort((e,t)=>n.P3[e.featureName]-n.P3[t.featureName]),t.forEach(t=>{if(!e[t.featureName]&&t.featureName!==n.K7.pageViewEvent)return;if(this.runSoftNavOverSpa&&t.featureName===n.K7.spa)return;if(!this.runSoftNavOverSpa&&t.featureName===n.K7.softNav)return;const r=function(e){switch(e){case n.K7.ajax:return[n.K7.jserrors];case n.K7.sessionTrace:return[n.K7.ajax,n.K7.pageViewEvent];case n.K7.sessionReplay:return[n.K7.sessionTrace];case n.K7.pageViewTiming:return[n.K7.pageViewEvent];default:return[]}}(t.featureName).filter(e=>!(e in this.features));r.length>0&&(0,l.R)(36,{targetFeature:t.featureName,missingDependencies:r}),this.features[t.featureName]=new t(this)})}catch(e){(0,l.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,_.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}({features:[E,O,P],loaderType:"lite"})})()})();</script>
+    <title>Charizard V Brilliant Stars Pokemon Card | Pikawiz</title>
+    <meta name="description" content="Get the latest prices for Charizard V 154 from the Brilliant Stars set of Pokemon Cards with our raw prices and graded prices">
+    <meta content='width=device-width' name='viewport' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css">
+    <link rel="apple-touch-icon" href="/assets/images/site/apple-touch-icon.png">
+    <link rel="canonical" href="https://www.pikawiz.com/card/brilliantstars/charizardv/154" />
+
+    <link href="/assets/fa/css/all.css?r" rel="stylesheet">
+    <link id="style1" rel="stylesheet"  href="/assets/css/darkmode.css?v30">
+    <link rel="stylesheet" href="/assets/redactor/redactor.css">
+
+    
+
+    <meta name="og:url" content="https://www.pikawiz.com/card/brilliantstars/charizardv/154">
+    <meta name="og:type" content="website">
+    <meta name="og:title" content="Charizard V - Brilliant Stars 154 | Pikawiz">
+    <meta name="og:description" content="View card details, check prices & track your collection with Pikawiz">
+    <meta name="og:image" content="https://www.pikawiz.com/share-card?image=https://www.pikawiz.com/images/brilliantstars/154.png&name=Charizard+V&setlogo=https://www.pikawiz.com/images/logos/brilliant-stars-logo.png&tagline=Brilliant+Stars - 154/172">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="pikawiz.com">
+    <meta name="twitter:title" content="Charizard V - Brilliant Stars 154 | Pikawiz">
+    <meta name="twitter:url" content="https://www.pikawiz.com/card/brilliantstars/charizardv/154">
+    <meta name="twitter:description" content="View card details, check prices & track your collection with Pikawiz">
+    <meta name="twitter:site" content="@pikawiz" />
+    <meta name="twitter:image" content="https://www.pikawiz.com/share-card?image=https://www.pikawiz.com/images/brilliantstars/154.png&name=Charizard+V&setlogo=https://www.pikawiz.com/images/logos/brilliant-stars-logo.png&tagline=Brilliant+Stars - 154/172" />     <script data-cfasync="false">
+        window.ramp = window.ramp || {};
+        window.ramp.que = window.ramp.que || [];
+    </script>
+    <style>
+        body {
+            cursor: url('/assets/images/site/wiglett.png'), auto;
+        }
+    </style>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SSKG2FRRKR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-SSKG2FRRKR');
+    </script>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="nav-drawer" id="nav-drawer">
+            <div class="nav-user">
+                <div class="nav-user-avatar-area">
+            
+                    <a href="/login">
+                    <div class="nav-user-avatar">
+                        <i class="fa fa-face-frown"></i>
+                    </div>
+                    </a>
+                    <div class="nav-user-username">
+                        <span>Not logged in</span>
+                        <a href="/login">Login or register</a>
+                    </div>
+                </div>            </div>
+            <div class="drawer-links">
+                <a href="/cards"><i class="fa-duotone fa-cards-blank"></i> Card Sets</a>
+                <a href="/lists"><i class="fa-duotone fa-sparkles"></i> Custom Lists</a>
+                <a href="/collection/search"><i class="fa fa-books"></i> My Collection</a>
+                <a href="Javascript:;" onclick="document.querySelector('.subnav').style.display='none';document.getElementById('decks-nav').style.display='block';"><i class="fa fa-dice"></i> Decks <i class="fa fa-caret-down"></i></a>
+                <div class="decks-nav subnav" id="decks-nav">
+                    <a href="/decks/build">Build a Deck</a>
+                    <a href="/decks/search">Browse Decks</a>
+                                                </div>
+                <a href="Javascript:;" onclick="document.querySelector('.subnav').style.display='none';document.getElementById('pocket-nav').style.display='block';"><i class="fa-light fa-mobile-notch"></i> TCG Pocket <i class="fa fa-caret-down"></i></a>
+                <div class="pocket-nav subnav" id="pocket-nav">
+                    <a href="/pocket/cards">All Card Sets</a>
+                    <a href="/pocket/cards/secluded-springs">Secluded Springs</a>
+                    <a href="/pocket/cards/wisdom-of-sea-and-sky">Wisdom of Sea and Sky</a>
+                    <a href="/pocket/cards/space-time-smackdown">Space-Time Smackdown</a>
+                    <a href="/pocket/cards/promo-a">Promo A</a>
+                </div>
+                <a href="/pokemon-pack-simulator"><i class="fa fa-layer-group"></i>Pack Simulator</a>
+                <a href="/pokedex"><img src="/assets/images/site/pokeball-icon-lightmode.png" class="pokeball-icon" id="pokeball-icon" alt="Pokeball Symbol for Pokedex Page"> Pokedex</a>
+                <a href="https://discord.gg/p3tB5XE7Gz" target="_BLANK"><i class="fab fa-discord"></i> Discord</a>
+                <a href="/competition"> Feedback</a>
+
+            </div>
+            <div class="drawer-footer">
+                <div class="footer-controls">
+                    <div class="css-mode-toggle"></div>
+                    <div class="mob-currency">
+                        <a href="Javascript:;" class="changecurrency usdmob" data-currency="usd"><i class="fa fa-dollar-sign"></i></a>
+                        <a href="Javascript:;" class="changecurrency gbpmob" data-currency="gbp"><i class="fa fa-pound-sign"></i></a>
+                        <a href="Javascript:;" class="changecurrency eurmob" data-currency="eur"><i class="fa fa-euro-sign"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <div id="navbar-mobile">
+                <div class="navflex">
+                    <a href="Javascript:;" class="mobmenuopen"><i class="fa fa-bars"></i></a>
+                    <a href="/" class="logo"><img src="https://www.pikawiz.com/images/logos/pikawiz.png" width="150" height="44" alt="Pikawiz Logo"></a>
+                    <div class="mobsearch-display">
+                        <input type="text" class="mobsearchinput navsearchinput" placeholder="Search Cards...">
+                        <a href="Javascript:;" onclick="$('.navflex .logo').fadeIn();$('.nav-search').fadeIn();$('.mobsearch-display').hide();"><i class="fa fa-times"></i></a>
+                    </div>
+                    <div class="nav-search">
+                        <a href="Javascript:;" onclick="$('.navflex .logo').hide();$('.nav-search').hide();$('.mobsearch-display').fadeIn().css('display','flex');"><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav>
+        <div class="desktopnav">
+            <div class="logo"><a href="/"><img src="https://www.pikawiz.com/assets/images/site/pika-logo-square.png" alt="Pikawiz Logo"></a></div>
+            <div class="desktopnavlinks">
+                <div class="desktop-innernav">
+                    <div class="cardsDrop"><a href="/cards">Cards <i class="fas fa-angle-down"></i></a>
+                    <div class="cardDropMenu">
+                        <a href="/cards">All Card Sets</a>
+                        <a href="/cards/mega-evolution">Mega Evolution</a>
+                        <a href="/cards/white-flare">White Flare</a>
+                        <a href="/cards/black-bolt">Black Bolt</a>
+                        <a href="/cards/prismatic-evolutions">Prismatic Evolutions</a>
+                        <a href="/cards/surging-sparks">Surging Sparks</a>
+                        <a href="/lists"><i class="fa-duotone fa-cards-blank"></i> Custom Lists</a>
+                        <a href="/pokedex">Pokedex</a>
+                    </div>
+                    </div>
+                    <div class="collectionDrop"><a href="/collection/search">My Collection <i class="fas fa-angle-down"></i></a>
+                    <div class="collectionDropMenu">
+                        <a href="/collection/search">My Collection - Cards
+                        <a href="/collection">My Collection - Sets</a>
+                        <a href="/lists"><i class="fa-duotone fa-cards-blank"></i> Custom Lists</a>
+                </div>
+            </div>
+            <div class="deckDrop"><a href="/decks/search">Decks <i class="fas fa-angle-down"></i></a>
+                    <div class="deckDropMenu">
+
+                                <a href="/decks/search">View Decks</a>
+                                <a href="/decks/build">Deck Builder</a>
+
+                                <a href="/decks/faq">Deck FAQ</a>        
+                                
+
+                </div>
+            </div>
+
+                    <div class="cardsDrop"><a href="/pocket/cards">TCG Pocket <i class="fas fa-angle-down"></i></a>
+                    <div class="cardDropMenu">
+                        <a href="/pocket/cards">All Card Sets</a>
+                        <a href="/pocket/cards/secluded-springs">Secluded Springs</a>
+                        <a href="/pocket/cards/wisdom-of-sea-and-sky">Wisdom of Sea and Sky</a>
+                        <a href="/pocket/cards/space-time-smackdown">Space-Time Smackdown</a>
+                        <a href="/pocket/cards/promo-a">Promo A</a>
+                    </div>
+                    </div>
+                    <a href="/pokemon-pack-simulator">Pack Simulator</a>
+                    <a href="https://discord.gg/p3tB5XE7Gz" target="_BLANK"><i class="fab fa-discord"></i> Discord</a>
+                </div>
+                <div class="buttons">
+                    <div class="myaccount-button">
+                        <a href="Javascript:;" class="search"><i class="fa fa-search"></i></a>
+                    </div>
+                    <input style="display:none" type="text" placeholder="Search cards by name.." class="navsearchinput">
+                    <div class="myaccount-button last"><a href="/login?return=/card/brilliantstars/charizardv/154"><i class="far fa-user"></i></a></div></div>                    <div class="ctrl-dropdown1 mobile"><span class="currencydd"><i class="fas fa-dollar-sign"></i></span>
+                        <div class="ctrl-dropdown-menu1 currencymenu text-center">
+                            <a href="Javascript:;" class="changecurrency" data-currency="usd"><i class="fas fa-dollar-sign"></i></a>
+                            <a href="Javascript:;" class="changecurrency" data-currency="gbp"><i class="fas fa-pound-sign"></i></a>
+                            <a href="Javascript:;" class="changecurrency" data-currency="eur"><i class="fas fa-euro-sign"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+        <!-- <div id="nn_skinl"></div> -->
+    <!-- <div id="nn_skinr"></div> -->
+    <div style="margin-left:auto;margin-right:auto;text-align:center;"><div id="nn_mobile_lb1"></div><div id="nn_lb1"></div></div>
+
+    <div class="page-container"><style>
+.custom-list-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.06) !important;
+    flex: 0 0 60px;
+    height: 58px;
+    border-radius: 5px;
+}
+.custom-list-add i {
+    color: rgba(255,255,255,0.8);
+}
+.custom-list-modal {
+    display: none;
+    background: #212121;
+    padding:5px;
+    border-radius: 6px;
+    right:0px;
+    width: 100%;
+    border: 1px solid #555;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+}
+.custom-list-modal:after, .custom-list-modal:before {
+    bottom: 100%;
+    left: 91.5%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.custom-list-modal:after {
+    border-bottom-color: #555;
+    border-width: 10px;
+    margin-left: -10px;
+}
+.custom-list-links {
+    max-height: 300px;
+    overflow-y: auto;
+}
+.custom-list-links a,.custom-list-links a:first-child,.custom-list-links a:last-child {
+    display: block;
+    padding: 5px;
+    background: none;
+    text-align: left;
+    margin-left:0px;
+    margin-bottom: 5px;
+    color:rgba(255,255,255,0.87);
+}
+.custom-list-links a:last-child {
+    margin-bottom: 0px;
+}
+.custom-list-modal a:hover {
+    background: rgba(255,255,255,0.08);
+}
+.custom-list-type {
+    color:rgba(255,255,255,0.47);
+    font-size:12px;
+    margin-top:2px;
+}
+.list-exists {
+    color: #feee6c;
+}
+.custom-list-link {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.list-link-icon {
+    padding-left:5px;
+}
+.custom-list-header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    margin-bottom: 5px;
+}
+.close-list-pop {
+    flex: 1 1 auto;
+    text-align: right;
+}
+.close-list-pop a {
+    padding: 0px !important;
+    background: none !important;
+}
+.close-list-pop i {
+    font-size: 20px !important;
+}
+@media(max-width: 500px) {
+    .custom-list-add {
+        height: 50px;
+    }
+}
+</style>
+
+<div class="leftColcardpage">
+    <div class="breadcrumb">
+        <a href="/">Home</a>
+        <a href="/cards">Sets</a>
+        <a href="/cards/brilliantstars">Brilliant Stars</a>
+        <a href="Javascript:;" class="activebreadcrumb">Charizard V</a>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;">
+        <div class="cardpageimage">
+            <div style="text-align: center;"><a href="/images/brilliantstars/154.png" target="_BLANK"><img src="/images/brilliantstars/154.png" alt="Charizard V Brilliant Stars Pokemon Card" title="Charizard V Brilliant Stars Pokemon Card"class="card-image"></a></div>
+
+            
+       <div class="collection-buttons">
+       <a href="/login"style="padding-bottom: 12px; padding-top: 12px;" data-version="" data-extratxt="" data-owned="no">
+       <i class="fas fa-times-square"></i>
+       <div class="button-text" >
+       <div class="label">Login</div>
+       <div class="own">To add to collection</div>
+       </div>
+       </a>
+       </div>
+
+
+          <div class="text-center mt-20 mb-20">
+    <div id="nn_mobile_mpu1"></div><div id="nn_mpu1"></div>
+</div>
+</div>
+<div class="cardpagedata">
+
+    <div class="card-name mb-10">
+        <h1>            Charizard V 
+           <div class="card_set_name">Brilliant Stars</div>
+       </h1>
+   </div>
+   <div class="meta" style="margin-bottom: 20px;font-size:12px;text-align: center;"> Get the latest prices for Charizard V 154 from the Brilliant Stars set of Pokemon Cards with our raw prices and graded prices </div>
+   <div class="card-tabs">
+    <a href="Javascript:;" class="active" data-tab="carddata-tab"><span class="hidemob">Card</span> Data</a>
+    <a href="Javascript:;" data-tab="cardraw-tab">Raw <span class="hidemob">Prices</span><span class="hidedesktop">$</span></a>
+    <a href="Javascript:;" data-tab="cardgrade-tab">Graded <span class="hidemob">Prices</span><span class="hidedesktop">$</span></a>
+    <a href="Javascript:;" data-tab="cardpop-tab">Pop<span class="hidemob">ulation</span> Report</a>
+   </div>
+
+   <div class="carddata-tab">
+    
+    <h2 class="popheader">Charizard V 154 Price</h2>
+    <div class="pop-overview-cont rawprices">
+    <div class="pop-overview">
+    <div class="pop-overview-header">NM</div>
+    <div class="pop-overview-num">&dollar;350</div>
+    <div class="pop-overview-date">Near Mint</div>
+    </div>
+    <div class="pop-overview">
+    <div class="pop-overview-header">LP</div>
+    <div class="pop-overview-num">&dollar;222</div>
+    <div class="pop-overview-date">Light Play</div>
+    </div>
+    <div class="pop-overview">
+    <div class="pop-overview-header">MP</div>
+    <div class="pop-overview-num">&dollar;172</div>
+    <div class="pop-overview-date">Med. Play</div>
+    </div>
+    <div class="pop-overview">
+    <div class="pop-overview-header">HP</div>
+    <div class="pop-overview-num">&dollar;124</div>
+    <div class="pop-overview-date">Heavy Play</div>
+    </div>
+    <div class="pop-overview">
+    <div class="pop-overview-header">DM</div>
+    <div class="pop-overview-num">&dollar;86.81</div>
+    <div class="pop-overview-date">Damaged</div>
+    </div>
+    </div>
+    <div class="mb-20" style="font-size:12px;text-align:center;">This product uses TCGplayer data but is not endorsed or certified by TCGplayer.</div>
+    <h2 class="popheader">Charizard V 154 Graded Prices</h2>
+    <div class="pop-overview-cont">
+    <div class="pop-overview">
+    <div class="pop-overview-header">PSA 10</div>
+    <div class="pop-overview-num">&dollar;410</div>
+    <div class="pop-overview-date">31/12/2024</div>
+   <div class="pop-overview-population"><span class="poptxt">POP:</span> 13,170</div>
+   </div>
+   <div class="pop-overview">
+   <div class="pop-overview-header">PSA 9</div>
+   <div class="pop-overview-num">&dollar;162</div>
+   <div class="pop-overview-date">30/12/2024</div>
+   <div class="pop-overview-population"><span class="poptxt">POP:</span> 9,027</div>
+   </div>
+   <div class="pop-overview">
+   <div class="pop-overview-header">PSA 8</div>
+   <div class="pop-overview-num">&dollar;130</div>
+   <div class="pop-overview-date">30/12/2024</div>
+   <div class="pop-overview-population"><span class="poptxt">POP:</span> 1,849</div>
+   </div>
+   </div>   <div class="mb-20" style="font-size:12px;text-align:center;"><b>Note:</b> This data is for the <b>Full Art Holo</b> version of <b>Charizard V</b> - Please use the tabs above to see other versions or more data.</div>
+   
+   <div class="card-type">
+    <div class="card-hp">HP<span class="card-hp-num">220</span> <i class="energy icon-fire"></i></div>     <div class="card-type-text">
+   <b>Pokemon V</b>   </div>
+<div class="clearfix"></div>
+</div>
+
+<div class="card-info">
+    
+ <div class="mt-20"><div class="card-attack mt-10"><div class="card-attack-cost"><i class="energy icon-fire"></i><i class="energy icon-fire"></i><i class="energy icon-colorless"></i></div><div class="card-attack-txt">
+     <p><b class="card-attack-name">Incinerate</b></p>
+     <p><p>Before doing damage, discard all Pokémon Tools from your opponent’s Active Pokémon.</p></p>
+     </div><div class="card-attack-dmg">90</div></div><div class="card-attack mt-10"><div class="card-attack-cost"><i class="energy icon-fire"></i><i class="energy icon-fire"></i><i class="energy icon-fire"></i><i class="energy icon-colorless"></i></div><div class="card-attack-txt">
+     <p><b class="card-attack-name">Heat Blast</b></p>
+     <p></p>
+     </div><div class="card-attack-dmg">180</div></div></div></div>
+
+<div class="card-data mt-20">
+    <div class="card-weakness">Weak <i class="energy-small small-icon-water"></i> x2</div>      <div class="card-retreat">Retreat: <i class="energy-small small-icon-colorless"></i><i class="energy-small small-icon-colorless"></i></div>  <div class="card-artist mt-10">Card Illustrator: Ryota Murayama</div>
+
+</div>
+
+<div class="card-set-data">
+    <div class="card-set-name"><div class="inline-block"><img src="/images/symbols/brilliant-stars-symbol.png" alt="Brilliant Stars Pokemon Cards Symbol" title="Brilliant Stars Pokemon Cards Symbol" width="14" height="14"></div> <div class="inline-block">Brilliant Stars</div></div>
+   <h2 class="card-set-number" style="font-weight:bold;font-size:12px">No: 154</h2>
+   <div class="clearfix"></div>
+</div>
+</div>
+<div class="cardraw-tab" style="display:none;">
+
+    <div class="latest-sale latest-sale-header">
+        <div class="latest-sale-version">Version</div>
+        <div class="latest-sale-condition">Condition</div>
+        <div class="latest-sale-price">Price</div>
+    </div>
+    
+      <div class="latest-sale colouredrow" data-version="fullartholo">
+      <div class="latest-sale-version"><a href="https://www.tcgplayer.com/product/263873/pokemon-swsh09-brilliant-stars-charizard-v-alternate-full-art" target="_blank">Full Art Holo</a></div>
+      <div class="latest-sale-condition">Near Mint</div>
+      <div class="latest-sale-price">&dollar;350</div>
+      </div>
+      
+      <div class="latest-sale" data-version="fullartholo">
+      <div class="latest-sale-version"><a href="https://www.tcgplayer.com/product/263873/pokemon-swsh09-brilliant-stars-charizard-v-alternate-full-art" target="_blank">Full Art Holo</a></div>
+      <div class="latest-sale-condition">Light Play</div>
+      <div class="latest-sale-price">&dollar;222</div>
+      </div>
+      
+      <div class="latest-sale colouredrow" data-version="fullartholo">
+      <div class="latest-sale-version"><a href="https://www.tcgplayer.com/product/263873/pokemon-swsh09-brilliant-stars-charizard-v-alternate-full-art" target="_blank">Full Art Holo</a></div>
+      <div class="latest-sale-condition">Moderate Play</div>
+      <div class="latest-sale-price">&dollar;172</div>
+      </div>
+      
+      <div class="latest-sale" data-version="fullartholo">
+      <div class="latest-sale-version"><a href="https://www.tcgplayer.com/product/263873/pokemon-swsh09-brilliant-stars-charizard-v-alternate-full-art" target="_blank">Full Art Holo</a></div>
+      <div class="latest-sale-condition">Heavy Play</div>
+      <div class="latest-sale-price">&dollar;124</div>
+      </div>
+      
+      <div class="latest-sale colouredrow" data-version="fullartholo">
+      <div class="latest-sale-version"><a href="https://www.tcgplayer.com/product/263873/pokemon-swsh09-brilliant-stars-charizard-v-alternate-full-art" target="_blank">Full Art Holo</a></div>
+      <div class="latest-sale-condition">Damaged</div>
+      <div class="latest-sale-price">&dollar;86.81</div>
+      </div>
+        <div class="text-right mt-20">This product uses TCGplayer data but is not endorsed or certified by TCGplayer.</div>
+</div>
+<div class="cardgrade-tab" style="display:none;">
+    <div class="mb-20"><b>Please Note:</b> These are sold prices for PSA graded cards, sourced from eBay, they have not been determined or verified by ourselves.</div>
+    <div class="control-bar">
+        
+           <div class="ctrl-dropdown" onclick="showMenu('versionmenu');"><span class="versiondd" data-currentversion="fullartholo">Card Version: Full Art Holo <i class="fa fa-caret-down"></i></span>
+           <div class="ctrl-dropdown-menu versionmenu">
+           <a href="Javascript:;" onclick="showPrices('fullartholo','Full Art Holo');">Full Art Holo</a><a href="Javascript:;" onclick="showPrices('german','German');">German</a><a href="Javascript:;" onclick="showPrices('spanish','Spanish');">Spanish</a></div>
+         </div>
+ </div>
+ <div class="latest-sale latest-sale-header">
+    <div class="latest-sale-history"></div>
+    <div class="latest-sale-version">Version</div>
+    <div class="latest-sale-grade">Grade</div>
+    <div class="latest-sale-price">Price</div>
+    <div class="latest-sale-date">Date</div>
+</div>
+
+  <div class="latest-sale colouredrow" data-version="fullartholo" onclick="loadHistory('brilliantstars','SWSH9-154','fullartholo',10);">
+  <div class="latest-sale-history"><i class="fa fa-history"></i></div>
+  <div class="latest-sale-version">Charizard V</div>
+  <div class="latest-sale-grade">10</div>
+  <div class="latest-sale-price">&dollar;410</div>
+  <div class="latest-sale-date">31/12/2024</div>
+  </div>
+  
+  <div class="latest-sale" data-version="fullartholo" onclick="loadHistory('brilliantstars','SWSH9-154','fullartholo',9);">
+  <div class="latest-sale-history"><i class="fa fa-history"></i></div>
+  <div class="latest-sale-version">Charizard V</div>
+  <div class="latest-sale-grade">9</div>
+  <div class="latest-sale-price">&dollar;162</div>
+  <div class="latest-sale-date">30/12/2024</div>
+  </div>
+  
+  <div class="latest-sale colouredrow" data-version="fullartholo" onclick="loadHistory('brilliantstars','SWSH9-154','fullartholo',8);">
+  <div class="latest-sale-history"><i class="fa fa-history"></i></div>
+  <div class="latest-sale-version">Charizard V</div>
+  <div class="latest-sale-grade">8</div>
+  <div class="latest-sale-price">&dollar;130</div>
+  <div class="latest-sale-date">30/12/2024</div>
+  </div>
+  
+  <div class="latest-sale" data-version="fullartholo" onclick="loadHistory('brilliantstars','SWSH9-154','fullartholo',7);">
+  <div class="latest-sale-history"><i class="fa fa-history"></i></div>
+  <div class="latest-sale-version">Charizard V</div>
+  <div class="latest-sale-grade">7</div>
+  <div class="latest-sale-price">&dollar;138</div>
+  <div class="latest-sale-date">12/07/2024</div>
+  </div>
+  
+  <div class="latest-sale colouredrow" data-version="fullartholo" onclick="loadHistory('brilliantstars','SWSH9-154','fullartholo',6);">
+  <div class="latest-sale-history"><i class="fa fa-history"></i></div>
+  <div class="latest-sale-version">Charizard V</div>
+  <div class="latest-sale-grade">6</div>
+  <div class="latest-sale-price">&dollar;80.00</div>
+  <div class="latest-sale-date">01/08/2024</div>
+  </div>
+  
+  <div class="latest-sale" data-version="fullartholo" onclick="loadHistory('brilliantstars','SWSH9-154','fullartholo',1);">
+  <div class="latest-sale-history"><i class="fa fa-history"></i></div>
+  <div class="latest-sale-version">Charizard V</div>
+  <div class="latest-sale-grade">1</div>
+  <div class="latest-sale-price">&dollar;221</div>
+  <div class="latest-sale-date">19/05/2024</div>
+  </div>
+  
+  <div class="latest-sale colouredrow" data-version="german" style="display:none;" onclick="loadHistory('brilliantstars','SWSH9-154','german',10);">
+  <div class="latest-sale-history"><i class="fa fa-history"></i></div>
+  <div class="latest-sale-version">Charizard V German</div>
+  <div class="latest-sale-grade">10</div>
+  <div class="latest-sale-price">&dollar;329</div>
+  <div class="latest-sale-date">13/10/2024</div>
+  </div>
+  
+  <div class="latest-sale" data-version="german" style="display:none;" onclick="loadHistory('brilliantstars','SWSH9-154','german',9);">
+  <div class="latest-sale-history"><i class="fa fa-history"></i></div>
+  <div class="latest-sale-version">Charizard V German</div>
+  <div class="latest-sale-grade">9</div>
+  <div class="latest-sale-price">&dollar;195</div>
+  <div class="latest-sale-date">27/10/2024</div>
+  </div>
+  
+  <div class="latest-sale colouredrow" data-version="spanish" style="display:none;" onclick="loadHistory('brilliantstars','SWSH9-154','spanish',5);">
+  <div class="latest-sale-history"><i class="fa fa-history"></i></div>
+  <div class="latest-sale-version">Charizard V Spanish</div>
+  <div class="latest-sale-grade">5</div>
+  <div class="latest-sale-price">&dollar;70.00</div>
+  <div class="latest-sale-date">23/04/2023</div>
+  </div>
+  <div class="text-right mt-10 mb-10"><a href="/report/SWSH9-154">Report Incorrect Data</a></div>
+<div class="card-sales-list">
+    <div class="card-sales-list-header"></div>
+</div>
+</div>
+<div class="cardpop-tab" style="display:none;">
+    <h3 class="mb-20">PSA Population Data</h3>
+    <div class="card-pop-list">
+        <table style="border-collapse:collapse;">
+            <tr class="tableheader-padding">
+                <th></th>
+                <th>10</th>
+                <th>9</th>
+                <th>8</th>
+                <th>7</th>
+                <th>6</th>
+                <th>5</th>
+                <th>4</th>
+                <th>3</th>
+                <th>2</th>
+                <th>1</th>
+            </tr>
+            
+              <tr class="card-list-item-population">
+              <th rowspan="3" class="carddata colouredrow">
+              <div class="card-list-name">Full Art/Charizard V </div>
+              </th>
+              <td>13170</td>
+              <td>9027</td>
+              <td>1849</td>
+              <td>390</td>
+              <td>214</td>
+              <td>89</td>
+              <td>41</td>
+              <td>15</td>
+              <td>3</td>
+              <td>17</td>
+              </tr>
+              <tr class="halfgrades" data-card-name="" data-card-number="" data-card-id="swsh9-154">
+              <td class="halfgrade">.5</td>
+              <td class="halfgrade"></td>
+              <td class="halfgrade"></td>
+              <td class="halfgrade">4</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">1</td>
+              </tr>
+              <tr class="trsep" data-card-name="" data-card-number="" data-card-id="swsh9-154"><td colspan="11"></td></tr>
+              
+              <tr class="card-list-item-population">
+              <th rowspan="3" class="carddata">
+              <div class="card-list-name">Full Art/Charizard V Spanish</div>
+              </th>
+              <td>17</td>
+              <td>17</td>
+              <td>3</td>
+              <td>0</td>
+              <td>3</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              </tr>
+              <tr class="halfgrades" data-card-name="" data-card-number="" data-card-id="swsh9-154">
+              <td class="halfgrade">.5</td>
+              <td class="halfgrade"></td>
+              <td class="halfgrade"></td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              </tr>
+              <tr class="trsep" data-card-name="" data-card-number="" data-card-id="swsh9-154"><td colspan="11"></td></tr>
+              
+              <tr class="card-list-item-population">
+              <th rowspan="3" class="carddata colouredrow">
+              <div class="card-list-name">Full/Art Dracafeu V French</div>
+              </th>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              </tr>
+              <tr class="halfgrades" data-card-name="" data-card-number="" data-card-id="swsh9-154">
+              <td class="halfgrade">.5</td>
+              <td class="halfgrade"></td>
+              <td class="halfgrade"></td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              </tr>
+              <tr class="trsep" data-card-name="" data-card-number="" data-card-id="swsh9-154"><td colspan="11"></td></tr>
+              
+              <tr class="card-list-item-population">
+              <th rowspan="3" class="carddata">
+              <div class="card-list-name">Full Art/Dracaufeu V French</div>
+              </th>
+              <td>384</td>
+              <td>238</td>
+              <td>22</td>
+              <td>2</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              </tr>
+              <tr class="halfgrades" data-card-name="" data-card-number="" data-card-id="swsh9-154">
+              <td class="halfgrade">.5</td>
+              <td class="halfgrade"></td>
+              <td class="halfgrade"></td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              </tr>
+              <tr class="trsep" data-card-name="" data-card-number="" data-card-id="swsh9-154"><td colspan="11"></td></tr>
+              
+              <tr class="card-list-item-population">
+              <th rowspan="3" class="carddata colouredrow">
+              <div class="card-list-name">Full Art/Glurak V German</div>
+              </th>
+              <td>121</td>
+              <td>188</td>
+              <td>41</td>
+              <td>6</td>
+              <td>2</td>
+              <td>0</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              </tr>
+              <tr class="halfgrades" data-card-name="" data-card-number="" data-card-id="swsh9-154">
+              <td class="halfgrade">.5</td>
+              <td class="halfgrade"></td>
+              <td class="halfgrade"></td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              </tr>
+              <tr class="trsep" data-card-name="" data-card-number="" data-card-id="swsh9-154"><td colspan="11"></td></tr>
+              
+              <tr class="card-list-item-population">
+              <th rowspan="3" class="carddata">
+              <div class="card-list-name">Full Art/Charizard V Italian</div>
+              </th>
+              <td>179</td>
+              <td>118</td>
+              <td>33</td>
+              <td>6</td>
+              <td>4</td>
+              <td>3</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              </tr>
+              <tr class="halfgrades" data-card-name="" data-card-number="" data-card-id="swsh9-154">
+              <td class="halfgrade">.5</td>
+              <td class="halfgrade"></td>
+              <td class="halfgrade"></td>
+              <td class="halfgrade">1</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              <td class="halfgrade">0</td>
+              </tr>
+              <tr class="trsep" data-card-name="" data-card-number="" data-card-id="swsh9-154"><td colspan="11"></td></tr>
+                    </table>
+  </div>
+  <div class="card-pop-list-desktop">
+    <table style="border-collapse:collapse;">
+        <tr class="tableheader-padding">
+            <th></th>
+            <th>10</th>
+            <th>9</th>
+            <th>8</th>
+            <th>7</th>
+            <th>6</th>
+            <th>5</th>
+            <th>4</th>
+            <th>3</th>
+            <th>2</th>
+            <th>1</th>
+        </tr>
+        
+          <tr class="trsep"><td colspan="11" style="text-align:left;padding-top:10px;padding-bottom:10px;padding-left:10px;">Full Art/Charizard V </td></tr>
+          <tr class="card-list-item-population">
+          <td></td>
+          <td>13170</td>
+          <td>9027</td>
+          <td>1849</td>
+          <td>390</td>
+          <td>214</td>
+          <td>89</td>
+          <td>41</td>
+          <td>15</td>
+          <td>3</td>
+          <td>17</td>
+          </tr>
+          <tr class="halfgrades">
+          <td class="halfgrade">.5</td>
+          <td class="halfgrade"></td>
+          <td class="halfgrade"></td>
+          <td class="halfgrade">4</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">1</td>
+          </tr>
+          
+          <tr class="trsep colouredrow"><td colspan="11" style="text-align:left;padding-top:10px;padding-bottom:10px;padding-left:10px;">Full Art/Charizard V Spanish</td></tr>
+          <tr class="card-list-item-population colouredrow">
+          <td></td>
+          <td>17</td>
+          <td>17</td>
+          <td>3</td>
+          <td>0</td>
+          <td>3</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          </tr>
+          <tr class="halfgrades colouredrow">
+          <td class="halfgrade">.5</td>
+          <td class="halfgrade"></td>
+          <td class="halfgrade"></td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          </tr>
+          
+          <tr class="trsep"><td colspan="11" style="text-align:left;padding-top:10px;padding-bottom:10px;padding-left:10px;">Full/Art Dracafeu V French</td></tr>
+          <tr class="card-list-item-population">
+          <td></td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          </tr>
+          <tr class="halfgrades">
+          <td class="halfgrade">.5</td>
+          <td class="halfgrade"></td>
+          <td class="halfgrade"></td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          </tr>
+          
+          <tr class="trsep colouredrow"><td colspan="11" style="text-align:left;padding-top:10px;padding-bottom:10px;padding-left:10px;">Full Art/Dracaufeu V French</td></tr>
+          <tr class="card-list-item-population colouredrow">
+          <td></td>
+          <td>384</td>
+          <td>238</td>
+          <td>22</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          </tr>
+          <tr class="halfgrades colouredrow">
+          <td class="halfgrade">.5</td>
+          <td class="halfgrade"></td>
+          <td class="halfgrade"></td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          </tr>
+          
+          <tr class="trsep"><td colspan="11" style="text-align:left;padding-top:10px;padding-bottom:10px;padding-left:10px;">Full Art/Glurak V German</td></tr>
+          <tr class="card-list-item-population">
+          <td></td>
+          <td>121</td>
+          <td>188</td>
+          <td>41</td>
+          <td>6</td>
+          <td>2</td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          </tr>
+          <tr class="halfgrades">
+          <td class="halfgrade">.5</td>
+          <td class="halfgrade"></td>
+          <td class="halfgrade"></td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          </tr>
+          
+          <tr class="trsep colouredrow"><td colspan="11" style="text-align:left;padding-top:10px;padding-bottom:10px;padding-left:10px;">Full Art/Charizard V Italian</td></tr>
+          <tr class="card-list-item-population colouredrow">
+          <td></td>
+          <td>179</td>
+          <td>118</td>
+          <td>33</td>
+          <td>6</td>
+          <td>4</td>
+          <td>3</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          </tr>
+          <tr class="halfgrades colouredrow">
+          <td class="halfgrade">.5</td>
+          <td class="halfgrade"></td>
+          <td class="halfgrade"></td>
+          <td class="halfgrade">1</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          <td class="halfgrade">0</td>
+          </tr>
+            </table>
+</div>
+</div>
+
+</div>
+</div>
+
+<div id="daily" class="graph"></div>
+
+<div class="nextprev">
+            <div class="prev-card">
+            <a href="/card/brilliantstars/charizardv/153">
+                <img class="lazyload" data-src="/images/thumbs/brilliantstars/153.png" width="125" height="175" alt="Charizard V Brilliant Stars Pokemon Card" title="Charizard V Brilliant Stars Pokemon Card">
+                <i class="fa fa-arrow-left"></i> Charizard V (153)
+            </a>
+        </div>
+                <div class="next-card">
+            <a href="/card/brilliantstars/lumineonv/155">
+                <img class="lazyload" data-src="/images/thumbs/brilliantstars/155.png" width="125" height="175" alt="Lumineon V Brilliant Stars Pokemon Card" title="Lumineon V Brilliant Stars Pokemon Card">
+                Lumineon V (155) <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="clearfix"></div>
+</div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+        
+ $('.btndrop-menu a').click(function() {
+    selectedCondition = $(this).attr('data-condition');
+    $('.btndrop-head'+$(this).attr('data-version')).html($(this).text());
+    if ($(window).width() <= 700) {
+        setTimeout(function() {
+            $('.btndrop-menu').hide();
+        }, 200);
+    } else {
+        setTimeout(function() {
+            $('.btndrop-menu').attr('style', '');
+        }, 100);
+    }
+});
+
+
+ 
+$('.card-tabs a').on('click', function() {
+    $('.card-tabs a').attr('class', '');
+    $('.carddata-tab').hide();
+    $('.cardraw-tab').hide();
+    $('.cardgrade-tab').hide();
+    $('.cardpop-tab').hide();
+    $(this).attr('class', 'active');
+    $('.' + $(this).attr('data-tab')).show();
+    if ($(this).attr('data-tab') == 'cardgrade-tab') {
+        loadChard($('.versiondd').attr('data-currentversion'), $('.versiondd').text().replace('Card Version: ', ''));
+        $('.graph').show();
+    } else {
+        $('.graph').hide();
+    }
+});
+
+});
+
+
+
+
+function showPrices(key, newname) {
+    if (key == 'base') {
+        key = 'basic';
+    }
+    $('.versiondd').html('Card Version: ' + newname + ' <i class="fa fa-caret-down"></i>');
+    $('.latest-sale').hide();
+    $('.latest-sale').each(function() {
+        if ($(this).attr('data-version') == key) {
+            $(this).show();
+        }
+    });
+    $('.latest-sale-header').show();
+    $('.versiondd').attr('data-currentversion', key);
+    loadChard(key, newname);
+    $('.graph').show();
+    if ($(window).width() <= 700) {
+        setTimeout(function() {
+            $('.versionmenu').hide();
+        }, 200);
+    } else {
+        setTimeout(function() {
+            $('.ctrl-dropdown-menu').attr('style', '');
+        }, 100);
+    }
+}
+
+function loadHistory(cardset, cardid, version, grade) {
+    $('.card-sales-list').show().html('<div class="card-sales-list-header"></div><i class="fa fa-spinner fa-spin"></i>');
+    index = 0;
+    $.get('/card/gradedhistory/' + cardset + '/' + cardid + '/' + version + '/' + grade, function(d) {
+        d = $.parseJSON(d);
+        $('.fa-spinner').remove();
+        $('.card-sales-list-header').html('PSA ' + grade + ' - ' + d[0].psa_name + ' Sales History<div class="pull-right"><a href="Javascript:;" onclick="$(\'.card-sales-list\').hide();"><i class="fa fa-times"></i></a></div>');
+        $.each(d, function(k, v) {
+            if (index % 2 == 0) {
+                col = ' colouredrow';
+            } else {
+                col = '';
+            }
+            $('.card-sales-list').append('<div class="latest-sale' + col + '"><div class="latest-sale-price-history">' + v.sold_price + '</div><div class="latest-sale-date-history">' + v.sale_date + '</div></div>');
+            index++;
+        });
+    });
+}
+
+function setCookie(cn, num) {
+    var date = new Date();
+    date.setTime(date.getTime() + 365 * 24 * 60 * 60 * 1000);
+    expires = "expires=" + date.toUTCString();
+    document.cookie = "pp" + cn + "=" + num + ";" + expires + "; path=/";
+}
+
+function getCookie(cn) {
+    cname = 'pp' + cn + '=';
+    decodedCookie = decodeURIComponent(document.cookie);
+    ca = decodedCookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(cname) == 0) {
+            return c.substring(cname.length, c.length);
+        }
+    }
+    return "";
+}
+
+function checkCookie(cn) {
+    cn = cn.toLowerCase().replace(' ', '');
+    rname = getCookie(cn);
+    if (rname == '') {
+        return true;
+    } else {
+        if (rname == 0) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+}
+
+function loadChard(extxt, charttitle) {
+    var seriesOptionsh = [];
+    seriesCounterh = 0;
+
+    function createChart() {
+        Highcharts.setOptions({
+            global: {
+                useUTC: false
+            }
+        });
+        Highcharts.stockChart('daily', {
+            chart: {
+                backgroundColor: null
+            },
+            title: {
+                text: 'Charizard V - ' + charttitle + ' - Sales History (in ' + currencysym + ')',
+                useHTML: true,
+                align: 'left',
+                style: {
+                    color: '#fff',
+                }
+            },
+            yAxis: {
+                gridLineWidth: 0,
+                plotLines: [{
+                    value: 0,
+                    width: 2,
+                    color: 'silver'
+                }]
+            },
+            legend: {
+                enabled: true,
+                itemStyle: {
+                    color: '#666',
+                }
+            },
+            xAxis: {
+                tickWidth: 0,
+                lineWidth: 0,
+                labels: {
+                    style: {
+                        color: '#666'
+                    }
+                }
+            },
+            rangeSelector: {
+                selected: 4
+            },
+            plotOptions: {
+                series: {
+                    events: {
+                        legendItemClick: function(event) {
+                            if (this.visible) {
+                                setCookie(this.name.toLowerCase().replace(' ', ''), 0);
+                            } else {
+                                setCookie(this.name.toLowerCase().replace(' ', ''), 1);
+                            }
+                        },
+                    },
+                }
+            },
+            credits: {
+                text: 'Pikawiz'
+            },
+            series: seriesOptionsh
+        });
+    }
+    $.getJSON('/card/graphdata/brilliantstars/SWSH9-154/' + extxt, function(data) {
+        i = 0;
+        $.each(data.graphdata, function(k, v) {
+            seriesOptionsh[i] = {
+                name: 'PSA ' + k,
+                data: $.parseJSON(v),
+                visible: checkCookie('PSA ' + k.toLowerCase())
+            };
+            i++;
+        });
+        createChart();
+    });
+}
+
+function showMenu(menu) {
+    $('.' + menu).toggle();
+}
+let activeVersion = 0;
+let activeSetVersion = 0;
+function loadLists() {
+    $.get('/lists/mylists?card=SWSH9-154&type='+activeVersion,function(d) {
+        d = $.parseJSON(d);
+        $('.custom-list-links').html('');
+        if(d == null) {
+            $('.custom-list-links').append('<a href="/lists/create"><div class="custom-list-link"><div class="list-link-icon"><i class="fa fa-square-exclamation"></i></div><div class="list-link-txt"><div>You don\'t have any lists!</div><div class="custom-list-type list-exists">Tap here to create one.</div></div></div></a>');
+        }
+        else {
+            $.each(d,function(k,v) {
+                if(v.list_type == 'sale') {
+                    v.list_type = 'Sale/Trade';
+                }
+                else {
+                    v.list_type = 'Collection';
+                }
+                if(v.card_owned == true) {
+                    $('.custom-list-links').append('<a href="Javascript:;"><div class="custom-list-link"><div class="list-link-icon"><i class="fa fa-check-square"></i></div><div class="list-link-txt"><div>'+v.list_name+'</div><div class="custom-list-type list-exists">Already in list</div></div></div></a>');
+                }
+                else {
+                    $('.custom-list-links').append('<a href="Javascript:;" onclick="addToList($(this),\''+v.list_name+'\',\''+v.list_id+'\');"><div class="custom-list-link"><div class="list-link-icon"><i class="fa fa-plus-square"></i></div><div class="list-link-txt"><div>'+v.list_name+'</div><div class="custom-list-type">'+v.list_type+'</div></div></div></a>');
+                }
+            });
+        }
+    });
+}
+function addToList(ele,lname,lid) {
+    ele.html('<i class="fa fa-spinner fa-spin" style="font-size:14px;"></i> Adding to '+lname);
+    $.get('/lists/addcard/'+lid+'/SWSH9-154/'+activeVersion+'/'+activeSetVersion,function(d) {
+        d = $.parseJSON(d);
+
+        if(d.status == 'success') {
+            ele.html('<div class="custom-list-link"><div class="list-link-icon"><i class="fa fa-check-square"></i></div><div class="list-link-txt"><div>Added to '+lname+'</div><div class="custom-list-type"></div></div></div>');
+        }
+    });
+}
+</script>
+
+<script src="/assets/js/charts/highstock.js"></script>
+<script src="/assets/js/charts/highcharts-more.js"></script>
+<script src="/assets/js/charts/exporting.js"></script>
+
+
+
+
+
+
+	</div>
+
+	<div style="margin-left:auto;margin-right:auto;text-align:center;"><div id="nn_lb2"></div></div>
+
+	<footer>
+		<div class="footer-content">
+			<div class="footer-links">
+				<div style="margin-top: 0px;font-weight:bold;margin-bottom: 10px;padding: 0px;font-size: 14px;color: rgba(255, 255, 255, 0.87);">Social Media</div>
+				<a href="https://www.instagram.com/pika.wiz" target="_BLANK"><i class="fab fa-instagram"></i> pika.wiz</a>
+				<a href="https://www.twitter.com/pikawiz" target="_BLANK"><i class="fab fa-twitter"></i> Pikawiz</a>
+				<a href="https://www.facebook.com/pikawiz" target="_BLANK"><i class="fab fa-facebook"></i> Pikawiz</a>
+			</div>
+			<div class="footer-links">
+				<div style="margin-top: 0px;font-weight:bold;margin-bottom: 10px;padding: 0px;font-size: 14px;color: rgba(255, 255, 255, 0.87);">Quick Links</div>
+                <a href="/cards/white-flare">White Flare</a>
+                <a href="/cards/black-bolt">Black Bolt</a>
+				<a href="/cards/prismatic-evolutions">Prismatic Evolutions</a>
+				<a href="/cards/surging-sparks">Surging Sparks</a>
+				<a href="/cards">Pokemon Card Sets</a>
+			</div>
+			<div class="footer-links-right">
+				<div>
+					<a href="https://docs.google.com/forms/d/1Dpwp8yEXCMka6XCR83NSp_Mr3u72J75Fcpl5GBQ3XJ0/" target="_BLANK">Feedback</a>
+					<a href="/contact">Contact Us</a>
+					<a href="/privacy">Privacy</a>
+					<a class="nn-cmp-show" href="#">Manage Cookie Settings</a>
+				</div>
+				<p class="mt-20">All information presented on this website regarding the Pokémon
+					Trading Card Game is &copy; The Pokémon Company, Nintendo, Game Freak, Creatures, and/or Wizards. This
+					website is not produced by, endorsed by, supported by, or affiliated with Pokémon, Nintendo, Game
+				Freak, Creatures, or Wizards.</p>
+				<p class="mt-10">This product uses TCGplayer data but is not endorsed or certified
+				by TCGplayer.</p>
+				<p class="mt-5">&copy; Wiz Media Ltd 2025</p>
+			</div>
+		</div>
+		<script data-cfasync="false" async src="//cdn.intergient.com/1025505/75673/ramp.js"></script>
+	</footer>
+
+	<script src="/assets/js/jquery-3.5.1.min.js"></script>
+	<script src="/assets/js/lazysizes.js?r"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.full.min.js"></script>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function(event) {
+			var pwcurrency = (document.cookie.match(/^(?:.*;)?\s*pw-currency\s*=\s*([^;]+)(?:.*)?$/) || [, null])[1];
+			if (!pwcurrency) {
+				var currency = 'usd';
+			} else {
+				var currency = pwcurrency;
+			}
+			if (currency == 'usd') {
+				currencysym = '<i class="fas fa-dollar-sign"></i>';
+				document.querySelector('.usdmob').classList = 'changecurrency usdmob active';
+			} else if (currency == 'gbp') {
+				currencysym = '<i class="fas fa-pound-sign"></i>';
+				document.querySelector('.gbpmob').classList = 'changecurrency gbpmob active';
+			} else if (currency == 'eur') {
+				currencysym = '<i class="fas fa-euro-sign"></i>';
+				document.querySelector('.eurmob').classList = 'changecurrency eurmob active';
+			} else {
+				currencysym = '<i class="fas fa-dollar-sign"></i>';
+				document.querySelector('.usdmob').classList = 'changecurrency usdmob active';
+			}
+			$('.currencydd').html('' + currencysym + '');
+
+
+			$('.navsearchinput').on('keyup', function(e) {
+				if (e.keyCode == 13) {
+					searchName = $(this).val();
+					if (searchName.length >= 3) {
+						window.location = '/search?q=' + encodeURI(searchName.toLowerCase());
+					} else {
+						alert('Please type more than 2 characters');
+					}
+				}
+			});
+			$('.mobile').on('click', function() {
+				$('.ctrl-dropdown-menu1').slideToggle();
+			});
+			$('.mobmenuopen').on('click', function() {
+				document.getElementById("nav-drawer").style.width = "280px";
+				elemDiv = document.createElement('div');
+				elemDiv.className = 'nav-overlay';
+				elemDiv.id = 'nav-overlay';
+				elemDiv.addEventListener('click',function() {
+					document.getElementById("nav-drawer").style.width = "0px";
+					elemDiv.remove();
+				});
+				document.body.appendChild(elemDiv);
+			});
+			$('.mobsearchopen').on('click', function() {
+				$('.mobile-search').slideToggle();
+			});
+			$('.mob-menu-avatar').on('click', function() {
+				$('.profileDrop').slideToggle();
+			});
+			$('.mob-menu-avatar').on('click', function() {
+				$('.mob-account-menu').toggle();
+			});
+
+			$('.search').on('click', function() {
+				if ($('.search').hasClass('clicked')) {
+
+					$('.navsearchinput').animate({
+						width: 'toggle'
+
+					});
+
+
+					$('.search').removeClass('clicked');
+
+				} else {
+					$('.navsearchinput').animate({
+						width: 'toggle'
+					});
+
+					$('.buttons').css('display', 'flex');
+
+					$('.navsearchinput').focus();
+					$('.search').addClass('clicked');
+
+				}
+			});
+		
+			$('.changecurrency').on('click', function() {
+				newcurrency = $(this).attr('data-currency');
+				var d = new Date();
+				d.setTime(d.getTime() + (365 * 24 * 60 * 60 * 1000));
+				var expires = "expires=" + d.toUTCString();
+				document.cookie = 'pw-currency' + "=" + newcurrency + ";" + expires + ";path=/";
+				if (newcurrency == 'usd') {
+					currencysym = '$';
+				} else if (newcurrency == 'gbp') {
+					currencysym = '&pound;';
+				} else if (newcurrency == 'eur') {
+					currencysym = '&euro;';
+				} else {
+					currencysym = '$';
+				}
+				$('.currencydd').html('' + currencysym + ' ');
+				window.location = window.location+'';			});
+		});
+	</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d52dd270f3","applicationID":"295558491","transactionName":"YVZRMBZSWUZRUE1eDVgcZhYNHF9aXVYWQQNEHEQTExxBXV9ATURNRlpYBRNaTRtTXFQYCkJHQwALUEQaWV1dUhoYQ1sU","queueTime":0,"applicationTime":453,"atts":"TRFSRl5ISkg=","errorBeacon":"bam.nr-data.net","agent":""}</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"f8958dfbdfbe4985a5ac3c68cba27b02","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'99a5e888ad0bb347',t:'MTc2MjQ0NTkyMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>

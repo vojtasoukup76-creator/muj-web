@@ -11,7 +11,8 @@ body {
     margin: 10px;
     padding: 10px;
 
-    width: max-content;
+
+    width: 200px;
 }
 
 .tlacitko:hover {
@@ -82,4 +83,9 @@ h2 {
 }
 .header img{
     width: 150px;
+}
+.tlacitko {
+    border: 10px;
+    cursor: pointer;
+    transition: 300ms;
 }

@@ -88,4 +88,6 @@ h2 {
     border: 10px;
     cursor: pointer;
     transition: 300ms;
+    display: flex ;
+    justify-content: center;
 }

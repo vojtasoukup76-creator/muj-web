@@ -64,6 +64,7 @@ h2 {
 
 .nav {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .tlacitko3 {

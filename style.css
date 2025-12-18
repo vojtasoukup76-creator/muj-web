@@ -77,7 +77,7 @@ h2 {
     transition: 300ms;
     display: flex;
     justify-content: center;
-    background-image: url("pokeball2.png")
+    background-image: url("pokeball2.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

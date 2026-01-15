@@ -129,3 +129,20 @@ opacity: 0;
     }
 
 }
+#obrazek.active {
+    animation: toceni 1s;
+}
+
+@keyframes toceni {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+.obrazek-kontejner {
+   display: flex;
+   justify-content: center;
+}

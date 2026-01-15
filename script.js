@@ -18,3 +18,28 @@ var mnesic=new Date().getMonth();
     }
 }
 vlocka()
+
+let seznam = ["karta1.png","karta2.png", "karta3.png", "karta4.png"];
+function animujobrazek(){
+    let index = 1;
+
+    setInterval(() => {
+        let obrazek = document.getElementById("obrazek");
+        index++;
+        if(index >= seznam.length){
+            index = 0
+        }
+        obrazek.classList.add("active");
+        setTimeout(() => {
+            
+            obrazek.setAttribute("src",seznam[index]);
+        }, 400);
+        setTimeout(() => {
+          obrazek.classList.remove("active");  
+        }, 1000);
+ },4000 );
+
+         
+}
+animujobrazek()
+

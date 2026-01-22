@@ -26,6 +26,7 @@ h1 {
 
 .nav {
     display: flex;
+    justify-content: space-between;
 }
 
 h2 {
@@ -145,4 +146,21 @@ opacity: 0;
 .obrazek-kontejner {
    display: flex;
    justify-content: center;
+   background-image: url('pika\ pozadi.jpg');
+padding: 10px;
+}
+
+.stin-karty{
+background:transparent;
+
+}
+
+footer  {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-top: solid black 2px;
+}
+footer img{
+    width: 40px;
 }

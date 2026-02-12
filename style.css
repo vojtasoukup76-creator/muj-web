@@ -146,7 +146,8 @@ opacity: 0;
 .obrazek-kontejner {
    display: flex;
    justify-content: center;
-   background-image: url('pika\ pozadi.jpg');
+   background-image: url('pozadi1.png');
+   background-size: cover;
 padding: 10px;
 }
 
@@ -164,5 +165,36 @@ footer  {
 footer img{
     width: 40px;
 }
-
+header {
+    display:flex ;
+    gap: 40px;
+    justify-content: end;
+    padding-inline: 20px;
+}
     
+.subsection {
+    display: none;
+    flex-direction: column;
+    background-color: darkgray;
+    padding: 10px;
+
+
+}
+.subsection a {
+    color: gold;
+    font-size: 20px;
+}
+.section:hover .subsection {
+    display: flex;
+    position: absolute;
+
+
+}
+
+.section h2{
+    margin: 0;
+}
+body.pozadi{
+    background-image: url();
+    background-size: contain;
+}

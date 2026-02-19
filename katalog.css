@@ -1,0 +1,43 @@
+.jmena {
+
+    margin: 30px;
+}
+
+ .obrazky {    
+
+margin: 20px;
+width: 200px;  
+ }
+
+
+ .image-holder {
+
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #vystup {
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    gap: 5px;
+ }
+ .produkt {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.price-box {
+    display: flex;
+    justify-content: center;
+    border: 4px solid yellow;
+    background:yellow;
+
+    
+
+
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog produktů - Pokémon</title>
+    <link rel="stylesheet" href="katalog.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav">
+            <a href="index.html" class="logo"><span class="visually-hidden">Domů</span></a>
+            <h1>Katalog produktů</h1>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="controls">
+            <input id="search" type="search" placeholder="Hledat podle názvu..." aria-label="Hledat produkty">
+            <label for="sort" class="visually-hidden">Seřadit</label>
+            <select id="sort" aria-label="Seřadit produkty">
+                <option value="default">Výchozí</option>
+                <option value="price-asc">Cena: nejlevnější</option>
+                <option value="price-desc">Cena: nejdražší</option>
+                <option value="name-asc">Název A→Z</option>
+                <option value="name-desc">Název Z→A</option>
+            </select>
+        </section>
+
+        <div id="vystup">
+
+            <div class="produkt" data-price="1546">
+                <h3 data-template="name" class="jmena">Phantasmal Flames Elite Trainer Box</h3>
+                <div class="image-holder"><img src="trainer flames.avif" class="obrazky" alt="Trainer Box"></div>
+                <div class="price-box"><span data-template="price">1 546</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="4595">
+                <h3 data-template="name" class="jmena">Mega Charizard X ex Ultra Premium Collection</h3>
+                <div class="image-holder"><img src="velky zard flames box.jpg" class="obrazky" alt="Charizard"></div>
+                <div class="price-box"><span data-template="price">4 595</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="1099">
+                <h3 data-template="name" class="jmena">Phantasmal Flames Booster Bundle</h3>
+                <div class="image-holder"><img src="bundle flames.webp" class="obrazky" alt="Booster Bundle"></div>
+                <div class="price-box"><span data-template="price">1 099</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="5999">
+                <h3 data-template="name" class="jmena">Mega Evolution Booster Box</h3>
+                <div class="image-holder"><img src="booster flames box.png" class="obrazky" alt="Booster Box"></div>
+                <div class="price-box"><span data-template="price">699</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="299">
+                <h3 data-template="name" class="jmena">Pokémon Mega Charizard Y Ex Tin</h3>
+                <div class="image-holder"><img src="tinka se zardem y.jpeg" class="obrazky" alt="karta1"></div>
+                <div class="price-box"><span data-template="price">699</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="349">
+                <h3 data-template="name" class="jmena">Pokémon Charizard ex Super Premium Collection</h3>
+                <div class="image-holder"><img src="zard krabice.webp" class="obrazky" alt="karta2"></div>
+                <div class="price-box"><span data-template="price">2 499</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="399">
+                <h3 data-template="name" class="jmena">Pokémon TCG Mega Venusaur ex Premium Collection</h3>
+                <div class="image-holder"><img src="venosaur jumbo.jpeg" class="obrazky" alt="karta3"></div>
+                <div class="price-box"><span data-template="price">1 199</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="249">
+                <h3 data-template="name" class="jmena">Pokémon TCG Collector Chest Fall 2025</h3>
+                <div class="image-holder"><img src="kufr.avif" class="obrazky" alt="karta4"></div>
+                <div class="price-box"><span data-template="price">899</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="199">
+                <h3 data-template="name" class="jmena">Pokémon TCG: Pokémon Day 2026 Collection</h3>
+                <div class="image-holder"><img src="vyroci 30.webp" class="obrazky" alt="Pikachu"></div>
+                <div class="price-box"><span data-template="price">599</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="220">
+                <h3 data-template="name" class="jmena">Pokémon TCG: SV10.5 White Flare - Elite Trainer Box</h3>
+                <div class="image-holder"><img src="white etb.jpg" class="obrazky" alt="Pikachu key"></div>
+                <div class="price-box"><span data-template="price">1 499</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="1299">
+                <h3 data-template="name" class="jmena">Pokémon TCG Scarlet & Violet Prismatic Evolutions Elite Trainer Box</h3>
+                <div class="image-holder"><img src="prism etb.png" class="obrazky" alt="tin"></div>
+                <div class="price-box"><span data-template="price">4 499</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="799">
+                <h3 data-template="name" class="jmena">Deck Box Special</h3>
+                <div class="image-holder"><img src="pokeball2.png" class="obrazky" alt="deckbox"></div>
+                <div class="price-box"><span data-template="price">799</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="499">
+                <h3 data-template="name" class="jmena">Arceus Playmat</h3>
+                <div class="image-holder"><img src="arca.jpg" class="obrazky" alt="playmat"></div>
+                <div class="price-box"><span data-template="price">499</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="349">
+                <h3 data-template="name" class="jmena">Insta Poster</h3>
+                <div class="image-holder"><img src="insta.jpg" class="obrazky" alt="poster"></div>
+                <div class="price-box"><span data-template="price">349</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="1599">
+                <h3 data-template="name" class="jmena">Finizen Premium Set</h3>
+                <div class="image-holder"><img src="finizen.png" class="obrazky" alt="finizen"></div>
+                <div class="price-box"><span data-template="price">1 599</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="1099">
+                <h3 data-template="name" class="jmena">Latias Collector Box</h3>
+                <div class="image-holder"><img src="latias.png" class="obrazky" alt="latias"></div>
+                <div class="price-box"><span data-template="price">1 099</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="249">
+                <h3 data-template="name" class="jmena">Raichu Pin</h3>
+                <div class="image-holder"><img src="raichu.png" class="obrazky" alt="raichu"></div>
+                <div class="price-box"><span data-template="price">249</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="399">
+                <h3 data-template="name" class="jmena">Rapidash Card Sleeve</h3>
+                <div class="image-holder"><img src="rapidash.png" class="obrazky" alt="rapidash"></div>
+                <div class="price-box"><span data-template="price">399</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="179">
+                <h3 data-template="name" class="jmena">Rotom Sticker</h3>
+                <div class="image-holder"><img src="rotom.png" class="obrazky" alt="rotom"></div>
+                <div class="price-box"><span data-template="price">179</span> Kč</div>
+            </div>
+
+        </div>
+    </main>
+
+    
+
+    <footer class="site-footer">
+        <small>© 2026 Pokémon karty - váš lokální obchod</small>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="katalog.js"></script>
+</body>
+</html>

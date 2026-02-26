@@ -24,6 +24,8 @@ width: 200px;
     gap: 12px;
     align-items: stretch;
  }
+
+
  .produkt {
     border: 1px solid black;
     display: flex;

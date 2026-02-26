@@ -1,63 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Katalog - Pokémon karty</title>
     <link rel="stylesheet" href="katalog.css">
 </head>
 <body>
-    <div id="vystup">
+    <header class="site-header">
+        <nav class="nav">
+            <a href="index.html" class="logo"><span class="visually-hidden">Domů</span></a>
+            <h1>Katalog - Pokémon karty</h1>
+        </nav>
+    </header>
 
-        <div class="produkt">
-            <h3 data-template="name" class="jmena">Pokemon Trading Card Game: Phantasmal Flames Elite Trainer Box
+    <main class="container">
+        <section class="controls">
+            <input id="search" type="search" placeholder="Hledat podle názvu..." aria-label="Hledat produkty">
+            <label for="sort" class="visually-hidden">Seřadit</label>
+            <select id="sort" aria-label="Seřadit produkty">
+                <option value="default">Výchozí</option>
+                <option value="price-asc">Cena: nejlevnější</option>
+                <option value="price-desc">Cena: nejdražší</option>
+                <option value="name-asc">Název A→Z</option>
+                <option value="name-desc">Název Z→A</option>
+            </select>
+        </section>
 
-            </h3>
-            <div class="image-holder">
-                <img src="trainer flames.avif" class="obrazky">
+        <div id="vystup">
+
+            <div class="produkt" data-price="1546">
+                <h3 data-template="name" class="jmena">Pokemon Trading Card Game: Phantasmal Flames Elite Trainer Box</h3>
+                <div class="image-holder">
+                    <img src="trainer flames.avif" class="obrazky" alt="Trainer Flames Elite Trainer Box">
+                </div>
+                <div class="price-box">
+                    <span data-template="price">1 546</span> Kč
+                </div>
             </div>
-            <div class="price-box">
-                
-                <span data-template="price"></span>1 546 Kč
+
+            <div class="produkt" data-price="4595">
+                <h3 data-template="name" class="jmena">Pokémon TCG: Mega Charizard X ex Ultra Premium Collection</h3>
+                <div class="image-holder">
+                    <img src="velky zard flames box.jpg" class="obrazky" alt="Mega Charizard X Ultra Premium Collection">
+                </div>
+                <div class="price-box">
+                    <span data-template="price">4 595</span> Kč
+                </div>
             </div>
+
+            <div class="produkt" data-price="1099">
+                <h3 data-template="name" class="jmena">Pokémon Phantasmal Flames Booster Bundle</h3>
+                <div class="image-holder">
+                    <img src="bundle flames.webp" class="obrazky" alt="Booster Bundle">
+                </div>
+                <div class="price-box">
+                    <span data-template="price">1 099</span> Kč
+                </div>
+            </div>
+
+            <div class="produkt" data-price="5999">
+                <h3 data-template="name" class="jmena">Pokémon TCG Mega Evolution Phantasmal Flames Booster Box</h3>
+                <div class="image-holder">
+                    <img src="booster flames box.png" class="obrazky" alt="Booster Box">
+                </div>
+                <div class="price-box">
+                    <span data-template="price">5 999</span> Kč
+                </div>
+            </div>
+
         </div>
-         <div class="produkt">
-            <h3 data-template="name" class="jmena">Pokémon TCG: Mega Charizard X ex Ultra Premium Collection
+    </main>
 
-            </h3>
-            <div class="image-holder">
-                <img src="velky zard flames box.jpg" class="obrazky">
-            </div>
-            <div class="price-box">
-                
-                <span data-template="price"></span>4 595 Kč
-            </div>
-        </div>
-         <div class="produkt">
-            <h3 data-template="name" class="jmena">Pokémon Phantasmal Flames Booster Bundle
+    <footer class="site-footer">
+        <small>© 2026 Pokémon karty - váš lokální obchod</small>
+    </footer>
 
-            </h3>
-            <div class="image-holder">
-                <img src="bundle flames.webp" class="obrazky">
-            </div>
-            <div class="price-box">
-                
-                <span data-template="price"></span>1 099 Kč
-            </div>
-        </div>
-         <div class="produkt">
-            <h3 data-template="name" class="jmena">Pokémon TCG Mega Evolution Phantasmal Flames Booster Box
-
-            </h3>
-            <div class="image-holder">
-                <img src="booster flames box.png" class="obrazky">
-            </div>
-            <div class="price-box">
-                
-                <span data-template="price">5 999</span> Kč
-            </div>
-        </div>
-</div>
+    <script src="script.js"></script>
+    <script src="katalog.js"></script>
 
     
 </body>

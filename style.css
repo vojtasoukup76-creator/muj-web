@@ -3,14 +3,13 @@ body {
     background-color: white;
     margin: 0px;
     font-family: "Funnel Sans";
-
+    padding-top: 80px; /* leave space for absolute header */
 }
-
 
 
 h1 {
     text-align: center;
-    color: hsl black
+    color: black;
 }
 
 .tlacitko2 {
@@ -87,7 +86,7 @@ display: block;
     border: 1px black solid;
     background-color: gold;
     color: black;
-    margin: 10px;
+    margin: 8px 10px 16px 20px; /* move a bit right and down */
     
 
 
@@ -103,7 +102,7 @@ margin: 0px;
 opacity: 0;
 
 }
-.play :hover {}
+
 
 .vlocka {
     position: absolute;
@@ -185,7 +184,7 @@ header {
 }
 header h1 {
     margin: 0px;
-   
+    color: white;
 
 
 

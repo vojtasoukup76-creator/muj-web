@@ -115,3 +115,37 @@ width: 200px;
     color: #ffffff; /* white */
     text-shadow: 0 0 8px rgba(255,255,255,0.9), 0 0 20px rgba(255,255,255,0.6);
 }
+.tlacitko:hover {
+    cursor: pointer;
+    transition: 300ms;
+}
+.tlacitko {
+    border: 10px;
+    cursor: pointer;
+    transition: 300ms;
+    display: flex;
+    justify-content: center;
+    background-image: url("pokeball2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+display: block;
+    border: 1px black solid;
+    background-color: gold;
+    color: black;
+    margin: 8px 10px 16px 20px; /* move a bit right and down */
+    
+
+
+    width: 200px;
+}
+.tlacitko p{
+background-color: gold;
+padding: 20px;
+margin: 0px;
+
+}
+.tlacitko p:hover{
+opacity: 0;
+
+}

@@ -222,3 +222,49 @@ body.pozadi{
     
     width: 20px;
 }
+.sekce {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 20px;
+    justify-content: center;
+}
+.card {
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    flex-basis: 300px;
+    border-radius: 3px;
+}
+.card-text {
+    font-size: 24px;
+    text-shadow:2px 2px rgba(0, 0, 0, 0.329)  ;
+}
+.card-holder {
+    aspect-ratio: 2/1;
+    overflow: hidden;
+    width: 100%;
+}
+.card-holder img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.bg-pozadi67 {
+    background-image: url(pozadi67.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bg-blue1 {
+    background-image: url(https://tcg.pokemon.com/assets/img/home/tcg-pocket/background.jpg);
+}
+.card-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}

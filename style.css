@@ -3,6 +3,8 @@ body {
     background-color: white;
     margin: 0px;
     font-family: "Funnel Sans";
+    background-image: url('pozadi\ kamen.jpg');
+    background-size: cover;
 }
 
 
@@ -254,6 +256,9 @@ body.pozadi{
     height: 100%;
     object-fit: contain;
 }
+.card-right {
+    margin-left: auto;
+}
 .bg-pozadi67 {
     background-image: url(pozadi67.jpg);
     background-size: cover;
@@ -267,4 +272,18 @@ body.pozadi{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+.bg-gray1 {
+    background-image: url(tcgl-background-2x.jpg);
+    background-size: cover;
+    background-position: top;
+
+}
+.gap {
+    height : 20px;
+}
+.bg-green1 {
+    background-image: url(go\ pozadi.webp);
+    background-size: auto;
+    background-position: top;
 }

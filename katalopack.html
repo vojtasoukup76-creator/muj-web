@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog produktů - Pokémon</title>
+    <link rel="stylesheet" href="katalog.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav">
+            <a href="index.html" class="logo"><span class="visually-hidden">Domů</span></a>
+            <h1>Katalog - Prize packy</h1>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="controls">
+            <input id="search" type="search" placeholder="Hledat podle názvu..." aria-label="Hledat produkty">
+            <label for="sort" class="visually-hidden">Seřadit</label>
+            <select id="sort" aria-label="Seřadit produkty">
+                <option value="default">Výchozí</option>
+                <option value="price-asc">Cena: nejlevnější</option>
+                <option value="price-desc">Cena: nejdražší</option>
+                <option value="name-asc">Název A→Z</option>
+                <option value="name-desc">Název Z→A</option>
+            </select>
+        </section>
+        <a href="index.html" class="tlacitko">
+            <p>Zpět na domovskou stránku</p></a>
+
+        <div id="vystup">
+
+            <div class="produkt" data-price="1546">
+                <h3 data-template="name" class="jmena">Play! Pokémon Prize Pack Series One Booster</h3>
+                <div class="image-holder"><img src="pps 1.jpg" class="obrazky" alt="Trainer Box"></div>
+                <div class="price-box"><span data-template="price">650</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="4595">
+                <h3 data-template="name" class="jmena">Play! Pokémon Prize Pack Series Two Booster</h3>
+                <div class="image-holder"><img src="pps 2.webp" class="obrazky" alt="Charizard"></div>
+                <div class="price-box"><span data-template="price">820</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="1099">
+                <h3 data-template="name" class="jmena">Play! Pokémon Prize Pack Series Three Booster</h3>
+                <div class="image-holder"><img src="pps 3.avif" class="obrazky" alt="Booster Bundle"></div>
+                <div class="price-box"><span data-template="price">240</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="5999">
+                <h3 data-template="name" class="jmena">Play! Pokémon Prize Pack Series Four Booster</h3>
+                <div class="image-holder"><img src="pps4.jpg" class="obrazky" alt="Booster Box"></div>
+                <div class="price-box"><span data-template="price">82</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="299">
+                <h3 data-template="name" class="jmena">Play! Pokémon Prize Pack Series Five Booster</h3>
+                <div class="image-holder"><img src="pps5.webp" class="obrazky" alt="karta1"></div>
+                <div class="price-box"><span data-template="price">100</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="349">
+                <h3 data-template="name" class="jmena">Play! Pokémon Prize Pack Series Six Booster</h3>
+                <div class="image-holder"><img src="pps 6.webp" class="obrazky" alt="karta2"></div>
+                <div class="price-box"><span data-template="price">72</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="399">
+                <h3 data-template="name" class="jmena">Play! Pokémon Prize Pack Series Seven Booster</h3>
+                <div class="image-holder"><img src="pps 7.webp" class="obrazky" alt="karta3"></div>
+                <div class="price-box"><span data-template="price">72</span> Kč</div>
+            </div>
+
+            <div class="produkt" data-price="249">
+                <h3 data-template="name" class="jmena">Play! Pokémon Prize Pack Series Eight Booster</h3>
+                <div class="image-holder"><img src="pps 8.jpg" class="obrazky" alt="karta4"></div>
+                <div class="price-box"><span data-template="price">100</span> Kč</div>
+            </div>
+
+           
+        </div>
+       
+    </main>
+
+    
+
+    <footer class="site-footer">
+        <small></small>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="katalog.js"></script>
+</body>
+</html>
